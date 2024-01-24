@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS students (
 
 CREATE TABLE IF NOT EXISTS courses (
     id SERIAL PRIMARY KEY NOT NULL,
-    name VARCHAR(64) NOT NULL,
-    teacher_name VARCHAR(64) NOT NULL,
+    course_name VARCHAR(64) NOT NULL,
+    teacher VARCHAR(64) NOT NULL,
     price INT NOT NULL
 );
 
